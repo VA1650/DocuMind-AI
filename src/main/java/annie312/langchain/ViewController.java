@@ -8,6 +8,6 @@ public class ViewController {
 
     @GetMapping("/")
     public String index() {
-        return "index";
+        return "index"; // Откроет файл index.html из папки templates
     }
 }
